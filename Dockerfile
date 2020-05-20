@@ -1,4 +1,4 @@
-FROM yumechang/apache24_php73
+FROM yumechang/apache24_php74
 
 # session to redis run
 RUN echo 'session.save_handler = redis\n\
